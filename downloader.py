@@ -2,8 +2,8 @@
 
 import subprocess, shlex
 
-print("File with download link lists: ", end="")
-filename = input()
+#print("File with download link lists: ", end="")
+filename = input("File with download link lists: ")
 
 try:
 	with open(filename) as data:
